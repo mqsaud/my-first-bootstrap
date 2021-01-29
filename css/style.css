@@ -3,6 +3,14 @@ body{
     font-family: 'Merriweather', serif;
 }
 
+.container-wrapper{}
+
+.container-wrapper-red{
+    background-color: #f05f40;
+    color:white;
+}
+
+
 .alert-container .col-12{
       padding-left: 0;
       padding-right: 0;
@@ -46,19 +54,44 @@ body{
 
 .features-container{}
 
+/* Page Header */
+.page-header{
+    margin-bottom:0;
+    border-bottom:0;
+    text-align:center;
+}
+
+.page-header h2{
+    margin-top:0;
+}
+
+.quotes .page-header{
+    margin-bottom: 25px;
+}
+
 /* block divider */
 .block-divider{
     width: 75px;
     height: 5px;
-    border: 0; 
+    border: 0;
+    background-color: #444444; 
 }
 
 .block-divider--orange{
      background-color: #e65523f0;
 }
+.block-divider--white{
+    background-color: white;
+}
 
 .block-divider--short{
     width:35px;
+}
+
+/* content-container */
+.content-container{
+    padding-top:45px;
+    padding-bottom:45px;
 }
 
 /* navbar */
@@ -134,3 +167,52 @@ font-weight: bold;
      border-color:rgb(179, 43, 43); 
  }
 
+ .feature{
+     text-align: center;
+     margin-bottom: 10px;
+ }
+ .feature i {
+     margin-bottom: 20px;
+     font-size: 45px;
+     line-height: 45px;
+ }
+ .feature p{
+     text-align: justify;
+ }
+
+ .feature .btn{
+     background-color: white;
+     border-color: white;
+     border-radius: 15px;
+     min-width: 100px;
+     font-weight: bold;
+     margin-top: 10px;
+     color:#f05f40;
+ }
+
+ .feature .page-header{
+     margin-bottom: 25px;
+ }
+
+ .feature .badge{
+      background-color: green;
+     border-color: white;
+     border-radius: 15px;
+     min-width: 100px;
+     font-weight: bold;
+     margin-top: 10px;
+     
+ }
+
+ .feature .fas{
+     color:darkblue;
+ }
+
+
+ /* Top Five */
+ .top-five h3{
+     text-align: center;
+ }
+  .top-five{
+      background-color: #bc1ed08c;
+  }
